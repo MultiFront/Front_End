@@ -1,0 +1,12 @@
+.mypage__list{
+  display: flex;
+  justify-content: center;
+}
+
+
+.mypage__list button{
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  font-size: 1rem;
+}
