@@ -20,7 +20,7 @@
 
 hr {
     clear: both;
-    height: 1px;
+    height: 4px;
     background: black;
 }
 
@@ -72,6 +72,8 @@ hr {
 }
 
 .formDate {
+    display: flex;
+    align-items: center;
     width: fit-content;
     transform: translate(5%);
 }
@@ -82,6 +84,11 @@ hr {
     margin-left: 60px;
     border-style: none;
     border: 0.5px solid darkgray;
+}
+
+.css-1lwbda4-MuiStack-root {
+    margin-left: 63px;
+    width: 270px;
 }
 
 .agreementAsk {

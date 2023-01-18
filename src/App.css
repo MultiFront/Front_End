@@ -44,7 +44,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", sans-serif !important;
   color: var(--font);
 }
 
@@ -66,7 +66,7 @@ p {
 
 h1,
 h2 {
-  font-size: var(--heading-fontSize);
+  font-size: var(--heading-fontSize) !important;
 }
 
 ul {

@@ -9,6 +9,15 @@ import { Container} from 'reactstrap'
 import '../styles/signUp.css'
 
 function SignUp() {
+
+  const checkAll = () => {
+    let isChecked = document.getElementById('chkAll').checked;
+    let chks = document.getElementsByClassName('chk');
+    for(let i=0; i<chks.length; i++){
+     chks[i].checked = isChecked;
+    }
+  }
+
   return (
     <Container>
     <div className='SigningMain inner'>
@@ -39,25 +48,25 @@ function SignUp() {
         <hr/>
           <div className='agreementTitle'>
             <span className='agreementAsk'>이용약관동의*</span>
-            <span><input type={'checkbox'}></input></span>
-            <span>전체 동의합니다.</span>
+            <label><span><input id='chkAll' type={'checkbox'} onClick={checkAll}></input></span>
+            <span>전체 동의합니다.</span></label>
           </div>
         <div className='agreement'>
           <div>
-            <span><input type={'checkbox'}></input></span>
-            <span>이용약관 동의(필수)</span>
+            <label><span><input className='chk' type={'checkbox'}></input></span>
+            <span>이용약관 동의(필수)</span></label>
           </div>
           <div>
-            <span><input type={'checkbox'}></input></span>
-            <span>개인정보 수집•이용 동의(필수)</span>
+          <label><span><input className='chk' type={'checkbox'}></input></span>
+            <span>개인정보 수집•이용 동의(필수)</span></label>
           </div>
           <div>
-            <span><input type={'checkbox'}></input></span>
-            <span>할인 쿠폰 등 혜택/정보 수신 동의(선택)</span>
+          <label><span><input className='chk' type={'checkbox'}></input></span>
+            <span>할인 쿠폰 등 혜택/정보 수신 동의(선택)</span></label>
           </div>
           <div>
-            <span><input type={'checkbox'}></input></span>
-            <span>만 14세 이상입니다.(필수)</span>
+          <label><span><input className='chk' type={'checkbox'}></input></span>
+            <span>만 14세 이상입니다.(필수)</span></label>
           </div>
           <div className='signUpBtn'>
             <button style={{width:'350px'}}>가입하기</button>

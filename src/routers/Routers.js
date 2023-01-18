@@ -11,6 +11,9 @@ import MatchingDetails from '../pages/MatchingDetails'
 import Checkout from '../pages/Checkout'
 import Login from '../pages/Login'
 import SignUp from '../pages/Signup'
+import Help from '../pages/help';
+import Notice from '../pages/Notice';
+import Personal from '../pages/Personal';
 import Mypage from '../pages/mypage';
 
 const Routers = () => {
@@ -29,6 +32,9 @@ const Routers = () => {
     <Route path='checkout' element={<Checkout/>} />
     <Route path='login' element={<Login/>} />
     <Route path='signup' element={<SignUp/>} />
+    <Route path='help' element={<Help/>}/>
+    <Route path='notice' element={<Notice/>}/>
+    <Route path='personal' element={<Personal/>}/>
     <Route path='mypage' element={<Mypage/>} />
   </Routes>
   );
