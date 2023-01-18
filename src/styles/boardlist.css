@@ -384,3 +384,22 @@ background-color: var(--font-50);
 }
 
 
+.review__btn{
+  margin-top:20px;
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: var(--bs-yellow);
+  font-size: .8rem;
+  color:var(--font);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+
+.review__btn i{
+  vertical-align: middle;
+  margin-right:5px;
+  font-size: .9rem;
+}
+

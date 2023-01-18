@@ -83,7 +83,7 @@
 
 .alarm__list{
   position: absolute;
-  top:70%;
+  top:80%;
   left: 0;
   transform: translateX(-50%);
   width: 300px;
@@ -118,10 +118,13 @@
 
 
 .alarm__list ul li p:first-child{
-  font-size: .7rem;
+  font-size: .6rem;
 }
 
-
+.alarm__list ul li p:nth-child(2):hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
 .alarm__list p{
   font-size: 0.8rem;
   color: var(--font-700);
