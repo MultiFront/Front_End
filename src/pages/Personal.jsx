@@ -1,7 +1,8 @@
 import React from 'react'
-import HelpNav from '../components/HelpNav'
+import HelpNav from '../components/UI/HelpNav'
 import '../styles/help.css';
-import PersonalMain from './PersonalMain';
+import PersonalMain from '../components/UI/PersonalMain';
+import { Link } from 'react-router-dom';
 import '../styles/Personal.css'
 import {
   Pagination,
@@ -17,7 +18,7 @@ function Notice() {
         <div className='PersonalContainer'>
           <h5>1대1 문의</h5>
           <div className='MainWrapper'>
-            <button className='WriteBtn' type='button'>글쓰기</button>
+            <Link to='/writeArticle'><button className='WriteBtn' type='button'>글쓰기</button></Link>
           <div className='MainWrap'>
             <PersonalMain text='답변대기' color='lightgrey' TitleQs='관리자만 볼 수 있습니다.' NickName='rkd****8' date='2023.11.15'/>
             <PersonalMain text='답변대기' color='lightgrey' TitleQs='관리자만 볼 수 있습니다.' NickName='rkd***8' date='2023.01.13'/>

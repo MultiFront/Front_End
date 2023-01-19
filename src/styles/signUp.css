@@ -34,6 +34,7 @@ hr {
 }
 
 .formBox {
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
 }
@@ -45,6 +46,8 @@ hr {
 }
 
 .inputForm input {
+    border-style: none;
+    border: 0.5px solid darkgray;
     width: 270px;
     position: relative;
     padding-left: 10px;
@@ -81,7 +84,7 @@ hr {
 .formDate > input {
     width: 270px;
     height: 40px;
-    margin-left: 60px;
+    margin-left: 49px;
     border-style: none;
     border: 0.5px solid darkgray;
 }
@@ -140,4 +143,12 @@ hr {
 
 .signUpLink a {
     color: rgba(0, 0, 255, 0.24);
+}
+
+#chkAll {
+    margin-right: 10px;
+}
+
+.chk {
+    margin-right: 10px;
 }

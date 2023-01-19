@@ -1,7 +1,7 @@
 import React from 'react';
-import HelpNav from '../components/HelpNav';
+import HelpNav from '../components/UI/HelpNav';
 import '../styles/notice.css';
-import NoticeMain from './NoticeMain';
+import NoticeMain from '../components/UI/NoticeMain'
 
 function Notice() {
   return (

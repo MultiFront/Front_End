@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/help.css';
-import FAQ from './FAQ';
-import HelpNav from '../components/HelpNav';
+import FAQ from '../components/UI/FAQ';
+import HelpNav from '../components/UI/HelpNav';
 
 function Help() {
     

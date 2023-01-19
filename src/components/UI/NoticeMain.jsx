@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/notice.css';
+// import '../styles/notice.css';
 
 function NoticeMain(props) {
   return (

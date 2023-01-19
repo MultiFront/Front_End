@@ -40,16 +40,16 @@ function SignUp() {
           <button>여자</button>
         </div>
         <div className='formDate'>
-          <span>생년월일</span>
-        <div>
-          
+          <div>생년월일</div>
+        <div className='formDate'>
+          <input type="date" />
         </div>
         </div>
-        <hr/>
+        <hr style={{marginTop:'25px', marginBottom:'10px'}}/>
           <div className='agreementTitle'>
             <span className='agreementAsk'>이용약관동의*</span>
             <label><span><input id='chkAll' type={'checkbox'} onClick={checkAll}></input></span>
-            <span>전체 동의합니다.</span></label>
+            <span style={{fontSize:'larger', fontWeight:'bold'}}>전체 동의합니다.</span></label>
           </div>
         <div className='agreement'>
           <div>

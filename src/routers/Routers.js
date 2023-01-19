@@ -15,6 +15,8 @@ import Help from '../pages/help';
 import Notice from '../pages/Notice';
 import Personal from '../pages/Personal';
 import Mypage from '../pages/mypage';
+import AskBoard from '../components/UI/AskBoard';
+import WriteArticle from '../components/UI/WriteArticle';
 
 const Routers = () => {
 
@@ -36,6 +38,8 @@ const Routers = () => {
     <Route path='notice' element={<Notice/>}/>
     <Route path='personal' element={<Personal/>}/>
     <Route path='mypage' element={<Mypage/>} />
+    <Route path='askboard' element={<AskBoard/>}/>
+    <Route path='writearticle' element={<WriteArticle/>}/>
   </Routes>
   );
 

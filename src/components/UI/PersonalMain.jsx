@@ -1,10 +1,12 @@
 import React from 'react'
-import SmallBtn from '../components/UI/SmallBtn'
-import '../styles/Personal.css'
+import SmallBtn from './SmallBtn'
+import { Link } from 'react-router-dom'
+// import '../MyReact/Front_End/src/styles/Personal.css'
 
 function PersonalMain(props) {
   return (
     <div className='Bundle'>
+    <Link to='/askboard'>
       <span className='titleSection'>
       <span className='FirstSection'>
       <SmallBtn color={props.color} text={props.text}/>
@@ -16,6 +18,7 @@ function PersonalMain(props) {
         <span>{props.date}</span>
         </span>
       </span>
+      </Link>
     </div>
   )
 }

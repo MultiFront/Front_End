@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/help.css';
-import Selector from '../components/UI/Selector';
+// import '../Front_End/src/styles/help.css';
+import Selector from './Selector';
 
 function HelpNav(){
     return (
     <div className='helpTop'>
       <div className='helpContainer'>
-        <h5>고객센터</h5>
+        <h1>고객센터</h1>
         <div className='selectorContainer'>
           <Selector addr='/help' content='FAQ' />
           <Selector addr='/notice' content='공지사항' />
