@@ -15,6 +15,10 @@ function Notice() {
           <NoticeMain title='CEO 사퇴' date='2023.01.01' content='어쩌구 저쩌구' />
           <NoticeMain title='이벤트 안내' date='2022.12.31' content='어쩌구 저쩌구' />
           <NoticeMain title='시설 업데이트' date='2014.04.19' content='어쩌구 저쩌구' />
+          <NoticeMain title='CEO 사퇴' date='2023.01.01' content='어쩌구 저쩌구' />
+          <NoticeMain title='CEO 사퇴' date='2023.01.01' content='어쩌구 저쩌구' />
+          <NoticeMain title='CEO 사퇴' date='2023.01.01' content='어쩌구 저쩌구' />
+          <NoticeMain title='CEO 사퇴' date='2023.01.01' content='어쩌구 저쩌구' />
         </div>
       </div>
     </div>

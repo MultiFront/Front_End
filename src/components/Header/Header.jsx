@@ -82,7 +82,7 @@ const Header = () => {
                 <div className="nav__icons">
                   
                   <motion.span whileTap= {{ scale: 1.2 }}>
-                    <Link to=''><span className='btn01'>매칭만들기</span></Link>
+                    <Link to='registration'><span className='btn01'>매칭만들기</span></Link>
                   </motion.span>
                   <motion.div whileTap= {{ scale: 1.2 }} className='alarm' onClick={ToggleAlarmAction}>
                     <span  className="fav__icon">
