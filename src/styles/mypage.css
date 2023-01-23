@@ -60,3 +60,10 @@
   background-color: var(--primary);
   color:#fff;
 }
+
+
+.tac {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
