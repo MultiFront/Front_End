@@ -16,7 +16,6 @@ const BookedList = () => {
         <ReviewList />
 
       <h5>시설</h5>
-        <ReviewList />
      </Col> 
 
 
