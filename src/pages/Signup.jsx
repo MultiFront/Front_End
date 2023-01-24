@@ -5,6 +5,7 @@ import PwForm from './signForm/pwForm'
 import EmailForm from './signForm/emailForm'
 import { Link } from 'react-router-dom'
 import { Container} from 'reactstrap'
+import { useState } from 'react';
 
 import '../styles/signUp.css'
 
@@ -42,7 +43,7 @@ function SignUp() {
         <div className='formDate'>
           <div>생년월일</div>
         <div className='formDate'>
-          <input type="date" />
+          <input type="date"/>
         </div>
         </div>
         <hr style={{marginTop:'25px', marginBottom:'10px'}}/>
