@@ -40,7 +40,7 @@ const Routers = () => {
     <Route path='notice' element={<Notice/>}/>
     <Route path='personal' element={<Personal/>}/>
     <Route path='mypage' element={<Mypage/>} />
-    <Route path='askboard' element={<AskBoard/>}/>
+    <Route path='askboard/:noticeSeq' element={<AskBoard/>}/>
     <Route path='writearticle' element={<WriteArticle/>}/>
     <Route path='registration' element={<Registration/>}/>
     <Route path='privateask' element={<PrivateAsk/>}/>
