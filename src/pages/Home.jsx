@@ -23,8 +23,8 @@ import { getMatchingData, filterMatchingData, getLessonData, filterLessonData, g
 import FilterHome from "./Filter/filter_home";
 import axios from 'axios';
 
-
 const Home = () => {
+  
 
   const [ matching, setMatching] = useState([]);
   const [ lesson, setLesson] = useState([]);
@@ -33,12 +33,13 @@ const Home = () => {
 
 
 
-  useEffect(()=>{
 
-    axios.get('/home')
+  useEffect(()=>{
+    axios.get('/api/hello')
     .then(response => setBackUrl(response.data))
     .catch(error => console.log(error))
-
+   
+  
 
     const filteredMatching = MatchingData.filter(
       (item) => item.category
@@ -101,6 +102,7 @@ const Home = () => {
                           렛플레이는 위치기반·실시간 운동매칭 서비스로 <br />
                           사용자들끼리 매칭을 통해 
                           운동 메이트와 함께 운동을 할 수 있습니다<br />
+                          <br />
                           {backUrl}
                           </p>
 
